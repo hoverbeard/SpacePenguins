@@ -1,23 +1,41 @@
 # Hackstairs2022 SpacePenguins Team
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YadiraF/DECA/blob/master/Detailed_Expression_Capture_and_Animation.ipynb?authuser=1)
+
+
 # Introduction 
+Text can be an extremely rich source of information, but extracting insights from it can be hard and time-consuming, due to its unstructured nature.
+ 
+In natural language processing and machine learning, which both fall under the vast umbrella of artificial intelligence, sorting text data is getting easier.
 
-Idea: **Why do we use activation functions in neural networks?**
+## Idea: 
 
-**What is the “vanishing gradient” problem? Which activation functions are subject to
-this issue?**
+### **Why do we use activation functions in entry for ratings?**
 
-Input from 
+**Crawling? How do we get text classification from the data we have?**
+
+*"Wie komme ich an die News?"
+Crawler: Informationen von irgendwo holen*
+
+Input from news (ex. Twitter, Apple, Google etc) and using Binary Classifier Technical Machine Learning Algorithms to classify Text in different categories. 
 
 Memes:
+![alt text][image]
+[image]: /idea/memes/Hack-idea-meme-interface.jpeg "alt_txt"
 
+
+![grafik](https://user-images.githubusercontent.com/78131082/198840485-f3ae2d2c-2dc0-4774-b181-df8905c06a8e.png)
+
+<img src="https://user-images.githubusercontent.com/78131082/198840485-f3ae2d2c-2dc0-4774-b181-df8905c06a8e.png)" alt="" width="200">
 
 
 # Implementation 
 
+
+
 ## Sourcecode from Kaggle 
 
-Simple Text Classification using Random Forest.
+### Simple Text Classification using Random Forest.
 
 ` import numpy as np from sklearn.feature_extraction.text 
 import CountVectorizer from sklearn.ensemble 
@@ -46,6 +64,8 @@ clf.predict(vectorizer.transform([‘apple is present’]).toarray())
 
 
 # Conclusion (Demo)
+
+Youtube 
 
 
 # Results
