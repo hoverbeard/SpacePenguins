@@ -50,6 +50,38 @@ Memes:
 
 ![grafik](https://user-images.githubusercontent.com/78131082/198841184-bcdeddce-62b0-45f2-9d9a-4219db0ddf1a.png)
 
+# Current Problem 
+Using [OpenAPI Natural language to Stripe API](https://beta.openai.com/examples/default-stripe-api), we can achieve 
+
+`import os
+import openai
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+response = openai.Completion.create(
+  model="code-davinci-002",
+  prompt="\"\"\"\nUtil exposes the following:\n\nutil.stripe() -> authenticates & returns the stripe module; usable as stripe.Charge.create etc\n\"\"\"\nimport util\n\"\"\"\nCreate a Stripe token using the users credit card: 5555-4444-3333-2222, expiration date 12 / 28, cvc 521\n\"\"\"",
+  temperature=0,
+  max_tokens=100,
+  top_p=1.0,
+  frequency_penalty=0.0,
+  presence_penalty=0.0,
+  stop=["\"\"\""]
+)`
+
+in the sample response: 
+
+`token = util.stripe().Token.create(
+card={
+    "number": '5555-4444-3333-2222',
+    "exp_month": 12,
+    "exp_year": 28,
+    "cvc": '521'
+},
+)
+
+"""          `
+
 
 # Implementation 
 
