@@ -1,2 +1,2 @@
-# Hackstairs 2022: A Visual News Text Classification Creator
+# Hackstairs 2022
 # Space Penguin 
