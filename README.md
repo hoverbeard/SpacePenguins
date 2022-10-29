@@ -17,6 +17,32 @@ Memes:
 
 ## Sourcecode from Kaggle 
 
+Simple Text Classification using Random Forest.
+
+` import numpy as np from sklearn.feature_extraction.text 
+import CountVectorizer from sklearn.ensemble 
+import RandomForestClassifier from sklearn import datasets `
+
+Following represents the corpus of text data used. The sample data I used is meant to classify text about apple and oranges. This could be used for emails for classifying spam.
+
+` corpus = [‘The apple is on sale’,’The oranges in on sale’,’The apple and is present’,’The orange and is present’] `
+
+Case for Apple as group 1, and case for orange as group 2.
+
+` Y = np.array([1,2,1,2]) `
+
+Creating bag-of-words using CountVectorizer
+
+` vectorizer = CountVectorizer(min_df=1)
+X = vectorizer.fit_transform(corpus).toarray()`
+
+Lastly, classify the text using random forest tree classifier.
+
+`clf = RandomForestClassifier()
+clf.fit(X, Y)
+clf.predict(vectorizer.transform([‘apple is present’]).toarray())
+`
+
 
 
 # Conclusion (Demo)
