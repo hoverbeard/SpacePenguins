@@ -67,9 +67,9 @@ Using [OpenAPI Natural language to Stripe API](https://beta.openai.com/examples/
 `import os
 import openai
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY") `
 
-response = openai.Completion.create(
+` response = openai.Completion.create(
   model="code-davinci-002",
   prompt="\"\"\"\nUtil exposes the following:\n\nutil.stripe() -> authenticates & returns the stripe module; usable as stripe.Charge.create etc\n\"\"\"\nimport util\n\"\"\"\nCreate a Stripe token using the users credit card: 5555-4444-3333-2222, expiration date 12 / 28, cvc 521\n\"\"\"",
   temperature=0,
@@ -90,8 +90,7 @@ card={
     "cvc": '521'
 },
 )
-
-"""          `
+`
 
 
 # Implementation / How to Build
@@ -99,16 +98,17 @@ card={
 To build and run this application locally, you'll need latest versions of Git, Gradle and JDK installed on your computer. From your command line:
 
 # Clone this repository
-$ git clone https://github.com/hoverbeard/hackstairs2022
+`$ git clone https://github.com/hoverbeard/hackstairs2022`
+
 
 # Go into the repository
-$ cd hackstairs2022
+` $ cd hackstairs2022`
 
 # Build
-$ gradle build
+` $ gradle build`
 
 # Run the app
-$ python3 -jar build/libs/hackstairs2022.py
+` $ python3 -jar build/libs/hackstairs2022.py`
 
 
 
