@@ -1,4 +1,4 @@
-# hackstairs2022
+# Hackstairs2022 SpacePenguins Team
 
 # Introduction 
 
@@ -7,3 +7,10 @@
 # Conclusion (Demo)
 
 # Results
+
+
+## Contributors
+
+@hoverbeard
+@GruneEnterTaste
+@A5TEX
