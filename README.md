@@ -1,10 +1,21 @@
-# Hackstairs2022 
-# SpacePenguins Team
+# Hackstairs 2022: A Visual News Text Classification Creator
+# Space Penguin 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YadiraF/DECA/blob/master/Detailed_Expression_Capture_and_Animation.ipynb?authuser=1)
+<h1 style="font-weight:normal">
+  <a href="https://sourcerer.io">
+    <img src=https://user-images.githubusercontent.com/20287615/34189346-d426d4c2-e4ef-11e7-9da4-cc76a1ed111d.png alt="Sourcerer" width=35>
+  </a>
+  &nbsp;sourcerer.io&nbsp;
+  <a href="https://sourcerer.io/start"><img src=https://img.shields.io/badge/sourcerer-start%20now-brightgreen.svg?colorA=087c08></a>
+  <a href="https://github.com/sourcerer-io/sourcerer-app/releases"><img src=https://img.shields.io/github/release/sourcerer-io/sourcerer-app.svg?colorB=58839b></a>
+  <a href="https://github.com/sourcerer-io/sourcerer-app/blob/master/LICENSE.md"><img src=https://img.shields.io/github/license/sourcerer-io/sourcerer-app.svg?colorB=ff0000></a>
+</h1>
 
 
-# Introduction 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SpacePenguin/DECA/blob/master/Detailed_Expression_Capture_and_Animation.ipynb?authuser=1)
+
+
+# Get Started 
 Text can be an extremely rich source of information, but extracting insights from it can be hard and time-consuming, due to its unstructured nature.
  
  ![grafik](https://user-images.githubusercontent.com/78131082/198841347-648ebaa8-881e-4122-9a44-e1a67f3d38e2.png)
@@ -83,7 +94,22 @@ card={
 """          `
 
 
-# Implementation 
+# Implementation / How to Build
+
+To build and run this application locally, you'll need latest versions of Git, Gradle and JDK installed on your computer. From your command line:
+
+# Clone this repository
+$ git clone https://github.com/hoverbeard/hackstairs2022
+
+# Go into the repository
+$ cd hackstairs2022
+
+# Build
+$ gradle build
+
+# Run the app
+$ python3 -jar build/libs/hackstairs2022.jar
+
 
 
 
@@ -142,6 +168,9 @@ In all cases, we find that the representation of the [CLS]-token neatly clusters
 ![grafik](https://user-images.githubusercontent.com/78131082/198841590-6f479f52-5c87-45ee-abd0-f222a372ad43.png)
 
 
+# License
+
+Sourcerer is under the MIT license. See the LICENSE for more information.
 
 ## Contributors
 
