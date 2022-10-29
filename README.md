@@ -108,9 +108,25 @@ $ cd hackstairs2022
 $ gradle build
 
 # Run the app
-$ python3 -jar build/libs/hackstairs2022.jar
+$ python3 -jar build/libs/hackstairs2022.py
 
 
+
+Usage
+=====
+To install hoverboard run the following command in bash:
+
+```
+curl -s https://hoverbeard/app/install | bash
+```
+
+To run wizard use `hoverbeard` command for macOS and Linux, `python3 -py sourcerer.py` in folder `Users\user\.hoverboard` for Windows.
+
+Use parameter `--help` for additional info.
+
+
+
+![grafik](https://user-images.githubusercontent.com/78131082/198842129-06b1b2ba-4f06-4cd4-b098-ade9e49f9847.png)
 
 
 ## Sourcecode from Kaggle 
@@ -185,10 +201,10 @@ Sourcerer is under the MIT license. See the LICENSE for more information.
 [Google Cloud API]
 The Cloud Natural Language API supports a variety of languages. These languages are specified within a request using the optional language parameter. Language code parameters conform to ISO-639-1 or BCP-47 identifiers. If you do not specify a language parameter, then the language for the request is auto-detected by the Natural Language API.
 
-[Text Classification]
-[Google Japan Keyboard]()
-[ETH Library DocSCAN: Unsupervised Text Classification via Learning from Neighbors](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/48468/CLE_WP_2021_08.pdf?sequence=1&isAllowed=y)
+[Text Classification](https://monkeylearn.com/text-classification/)
+[Google Japan Keyboard](https://m.youtube.com/watch?v=9G3DWHf1xX0&feature=youtu.be)
 
+[ETH Library DocSCAN: Unsupervised Text Classification via Learning from Neighbors](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/48468/CLE_WP_2021_08.pdf?sequence=1&isAllowed=y)
 ![grafik](https://user-images.githubusercontent.com/78131082/198841472-c03d1c2d-bf4f-4301-bcdc-171823587b80.png)
 
 [Twitter News API]
