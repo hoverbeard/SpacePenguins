@@ -98,10 +98,17 @@ clf.predict(vectorizer.transform([‘apple is present’]).toarray())
 
 ![grafik](https://user-images.githubusercontent.com/78131082/198840913-e42d65cb-d9c5-4fb6-b75a-de6dc75fbb93.png)
 
-PCA of resulting SCAN Embeddings provide visual representations of how the SCAN approach reshapes document vectors. Using the Google Snippets dataset, the left panel plots the first two principal components of the SBERT embeddings formed from those
-documents. The right panel shows the principal components of the [CLS]-token of a fine-tuned RoBERTabase model using SCAN. Figure 3 and 4 provide the same exercise for the AG News data and the Abstracts Group data. In all cases, we find that the representation of the [CLS]-token neatly clusters datapoints into its corresponding classes after having been fine-tuned on the SCAN objective.
+PCA of resulting SCAN Embeddings provide visual representations of how the SCAN approach reshapes document vectors. Using the Google Snippets dataset, the left panel plots the first two principal components of the SBERT embeddings formed from those documents.
+![grafik](https://user-images.githubusercontent.com/78131082/198841561-4bef8125-cc87-478f-94cb-b63dbead772f.png)
+
+The right panel shows the principal components of the [CLS]-token of a fine-tuned RoBERTabase model using SCAN. Figure 3 and 4 provide the same exercise for the AG News data and the Abstracts Group data. 
 
 ![grafik](https://user-images.githubusercontent.com/78131082/198841509-c09facba-b679-483d-bd5f-4d697a12e13e.png)
+
+In all cases, we find that the representation of the [CLS]-token neatly clusters datapoints into its corresponding classes after having been fine-tuned on the SCAN objective.
+
+![grafik](https://user-images.githubusercontent.com/78131082/198841590-6f479f52-5c87-45ee-abd0-f222a372ad43.png)
+
 
 
 ## Contributors
