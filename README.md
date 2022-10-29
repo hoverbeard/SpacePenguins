@@ -1,7 +1,7 @@
-# Hackstairs2022 SpacePenguins Team
+# Hackstairs2022 
+# SpacePenguins Team
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YadiraF/DECA/blob/master/Detailed_Expression_Capture_and_Animation.ipynb?authuser=1)
-
 
 
 # Introduction 
@@ -10,6 +10,16 @@ Text can be an extremely rich source of information, but extracting insights fro
 In natural language processing and machine learning, which both fall under the vast umbrella of artificial intelligence, sorting text data is getting easier.
 
 ## Idea: 
+
+![grafik](https://user-images.githubusercontent.com/78131082/198841246-ec20b80a-f15f-4483-be67-1de52110f27a.png)
+
+![grafik](https://user-images.githubusercontent.com/78131082/198841254-9620dbe1-de98-4df8-a3e6-6de1dfb06591.png)
+
+![grafik](https://user-images.githubusercontent.com/78131082/198841205-f3c0a760-4967-4f44-a352-71e31170ef57.png)
+
+![grafik](https://user-images.githubusercontent.com/78131082/198841214-57680ab5-881f-47b7-a8a9-d2fc3b7b47d0.png)
+
+![grafik](https://user-images.githubusercontent.com/78131082/198841220-19248d6a-69ee-43c5-a74d-ef9c6551ee64.png)
 
 <p align="center">
   <img alt="sergey" src="https://user-images.githubusercontent.com/20287615/47371068-c70f5a00-d6ef-11e8-8988-dcdca71bf83c.gif">
@@ -33,6 +43,9 @@ Memes:
 ![grafik](https://user-images.githubusercontent.com/78131082/198840485-f3ae2d2c-2dc0-4774-b181-df8905c06a8e.png)
 
 <img src="https://user-images.githubusercontent.com/78131082/198840485-f3ae2d2c-2dc0-4774-b181-df8905c06a8e.png)" alt="" width="200">
+
+
+![grafik](https://user-images.githubusercontent.com/78131082/198841184-bcdeddce-62b0-45f2-9d9a-4219db0ddf1a.png)
 
 
 # Implementation 
