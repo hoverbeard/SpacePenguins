@@ -3,12 +3,18 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YadiraF/DECA/blob/master/Detailed_Expression_Capture_and_Animation.ipynb?authuser=1)
 
 
+
 # Introduction 
 Text can be an extremely rich source of information, but extracting insights from it can be hard and time-consuming, due to its unstructured nature.
  
 In natural language processing and machine learning, which both fall under the vast umbrella of artificial intelligence, sorting text data is getting easier.
 
 ## Idea: 
+
+<p align="center">
+  <img alt="sergey" src="https://user-images.githubusercontent.com/20287615/47371068-c70f5a00-d6ef-11e8-8988-dcdca71bf83c.gif">
+</p>
+
 
 ### **Why do we use activation functions in entry for ratings?**
 
@@ -38,10 +44,12 @@ Memes:
 ### Simple Text Classification using Random Forest.
 
 ` import numpy as np from sklearn.feature_extraction.text 
+
 import CountVectorizer from sklearn.ensemble 
+
 import RandomForestClassifier from sklearn import datasets `
 
-Following represents the corpus of text data used. The sample data I used is meant to classify text about apple and oranges. This could be used for emails for classifying spam.
+Following represents the corpus of text data used. The sample data we used from Twitter is meant to classify text topics including ITnews. This could be used for emails for classifying text topics for news. 
 
 ` corpus = [‘The apple is on sale’,’The oranges in on sale’,’The apple and is present’,’The orange and is present’] `
 
@@ -65,10 +73,14 @@ clf.predict(vectorizer.transform([‘apple is present’]).toarray())
 
 # Conclusion (Demo)
 
-Youtube 
+[Youtube](https://youtu.be/YwtzSopqld0)
 
+[<img src="![grafik](https://user-images.githubusercontent.com/78131082/198840975-366691c1-6b46-4da8-be70-f6cd14fa5c01.png)
+" width="50%">](https://youtu.be/YwtzSopqld0 "Now in NLP")
 
 # Results
+
+![grafik](https://user-images.githubusercontent.com/78131082/198840913-e42d65cb-d9c5-4fb6-b75a-de6dc75fbb93.png)
 
 
 
