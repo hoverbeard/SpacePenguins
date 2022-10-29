@@ -2,15 +2,20 @@
 
 # Introduction 
 
+
 # Implementation 
 
+
 # Conclusion (Demo)
+
 
 # Results
 
 
+
 ## Contributors
 
-@hoverbeard
-@GruneEnterTaste
-@A5TEX
+@[hoverbeard](https://github.com/hoverbeard)
+@[GruneEnterTaste](https://github.com/GruneEnterTaste)
+@[A5TEX](https://github.com/A5TEX)
+@[esthicodes](https://github.com/esthicodes)
