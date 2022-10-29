@@ -7,6 +7,9 @@
 # Introduction 
 Text can be an extremely rich source of information, but extracting insights from it can be hard and time-consuming, due to its unstructured nature.
  
+ ![grafik](https://user-images.githubusercontent.com/78131082/198841347-648ebaa8-881e-4122-9a44-e1a67f3d38e2.png)
+
+
 In natural language processing and machine learning, which both fall under the vast umbrella of artificial intelligence, sorting text data is getting easier.
 
 ## Idea: 
@@ -95,6 +98,10 @@ clf.predict(vectorizer.transform([‘apple is present’]).toarray())
 
 ![grafik](https://user-images.githubusercontent.com/78131082/198840913-e42d65cb-d9c5-4fb6-b75a-de6dc75fbb93.png)
 
+PCA of resulting SCAN Embeddings provide visual representations of how the SCAN approach reshapes document vectors. Using the Google Snippets dataset, the left panel plots the first two principal components of the SBERT embeddings formed from those
+documents. The right panel shows the principal components of the [CLS]-token of a fine-tuned RoBERTabase model using SCAN. Figure 3 and 4 provide the same exercise for the AG News data and the Abstracts Group data. In all cases, we find that the representation of the [CLS]-token neatly clusters datapoints into its corresponding classes after having been fine-tuned on the SCAN objective.
+
+![grafik](https://user-images.githubusercontent.com/78131082/198841509-c09facba-b679-483d-bd5f-4d697a12e13e.png)
 
 
 ## Contributors
@@ -112,3 +119,8 @@ The Cloud Natural Language API supports a variety of languages. These languages 
 
 [Text Classification]
 [Google Japan Keyboard]()
+[ETH Library DocSCAN: Unsupervised Text Classification via Learning from Neighbors](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/48468/CLE_WP_2021_08.pdf?sequence=1&isAllowed=y)
+
+![grafik](https://user-images.githubusercontent.com/78131082/198841472-c03d1c2d-bf4f-4301-bcdc-171823587b80.png)
+
+[Twitter News API]
